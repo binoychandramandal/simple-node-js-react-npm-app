@@ -8,7 +8,7 @@ agent{
 stages{
   stage("Build"){
     steps{
-         sh 'nps run'
+         sh 'npm install'
     }
   }
 }
